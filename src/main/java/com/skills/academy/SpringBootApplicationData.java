@@ -41,11 +41,14 @@ public class SpringBootApplicationData implements CommandLineRunner {
 
 		repository.deleteAll();
 
-		// create books
-		repository.save(new Employee("IBM", "GBS", "Catalin Neagoe", "Architect", "CMAS"));
-		repository.save(new Employee("IBM", "GBS", "Ion Neagoe", "Specialist", "CMAS"));
-		repository.save(new Employee("IBM", "GBS", "Marin Neagoe", "Manager", "EU-LISA"));
-		repository.save(new Employee("IBM", "GBS", "Costel Neagoe", "Architect", "CMAS"));
+		repository.save(new Employee("IBM", "Cognos", "Marcu Anton", "Architect", "Smart Cognos"));
+		repository.save(new Employee("IBM", "AI", "John DOE", "Specialist", "Deep Learning for FI"));
+		repository.save(new Employee("IBM", "Blockchain", "John John", "Manager", "Hyper Ledger for MM"));
+		repository.save(new Employee("GOOGLE", "CLOUD", "William Williams", "Architect", "k8s"));
+		repository.save(new Employee("AMAZON", "CLOUD", "Terry Carp", "Manager", "EBS"));
+		repository.save(new Employee("AMAZON", "CLOUD", "Eugen Sun", "Architect", "AKS"));
+		repository.save(new Employee("MICROSOFT", "CLOUD", "Ana Marco", "Manager", "Functions"));
+		repository.save(new Employee("MICROSOFT", "CLOUD", "Andreea Spa", "Architect", "Serverless"));
 
 	}
 
