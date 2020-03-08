@@ -50,3 +50,12 @@ if application starts ok you should see:
 
 check http://localhost:8080/swagger-ui.html
 
+For openshift (core ready containers) use Import from Git functionalaty (source to image).
+Enter in git URL link to this repo https://github.com/catagithub03/employeeman and wait until application is built ( will take aprox5-10 mins :)
+
+Once application is up check route url or swagger ui
+{your app route}/swagger-ui.html
+
+
+
+
