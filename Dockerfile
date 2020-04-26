@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8/ubi-minimal:8.0
+FROM registry.access.redhat.com/ubi8/ubi-minimal
 
 # Some version information
 LABEL io.k8s.description="Platform for running plain Java applications (fat-jar and flat classpath)" \
